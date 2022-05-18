@@ -1,0 +1,269 @@
+/*
+   Author: M.Praveen Kumar;
+   Theme: Restaurant Food Order;
+   Version: 1.0
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    width : 80%;
+    margin: 0 auto;
+    padding: 1%;
+
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff7675;
+}
+
+.bttn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.bttn-primary{
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+}
+
+.bttn-primary:hover{
+    background-color: #ff7675;
+    color: white;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%; 
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+
+/* CSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.menu{
+    line-height: 60px;
+}
+
+.menu ul
+{
+ list-style-type: none;
+}
+
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+}
+
+.container ul
+{
+    list-style-type: none;
+}
+
+.container ul li
+{
+    display:inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food Search Section */
+
+.food-search{
+    background-image: url(../images/Backgroundimg7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+
+.categories{
+    padding: 4% 0;
+    background: #f1f2f6;
+}
+
+.Box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+
+.food-menu{
+    background-color: #eccc68;
+    padding: 4% 0;
+}
+
+.food-menu-box{
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    background: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 0.9rem;
+    color: #57606f;
+}
+
+
+/* CSS for Social Media */
+
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* CSS for the smaller Screen*/
+
+@media only screen and (max-width:768px){
+    .logo{
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .bttn{
+        width: 90%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+    
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .Box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+    
+}
+}
